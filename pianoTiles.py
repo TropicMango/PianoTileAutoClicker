@@ -48,6 +48,9 @@ def scan():
             mControl.click(mouse.Button.left)
             latest = x_cord
             score += 1
+            print('none')
+        else:
+            print('none')
         im.close()
         # print('run time: {}'.format(time.time() - start_time))
         # time.sleep(0)
